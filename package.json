@@ -1,0 +1,21 @@
+{
+  "name": "eureka-test-task",
+  "version": "0.0.0",
+  "author": "Petr Petushkov",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "node-addon-api": "^5.1.0"
+  }
+}
