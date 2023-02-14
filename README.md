@@ -66,7 +66,7 @@
 Запуск приложения
 
 
-Запуск с помощью bat файла.
+Запуск с помощью bat файла
 
 ---
 
@@ -90,7 +90,7 @@ server.bat
 | **Backend**  |![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)|
 |:------------:|:------------:|
 
-### Test task.
+### Test task
 
 #### Description
 
@@ -118,3 +118,28 @@ You can get the list of users for checking from Computer Management->Services->L
 8. Send the link to your project to job@eurekabpo.ru.
 
 9. The deadline for the task is 7 days, starting tomorrow.
+
+#### Solution
+
+#### Getting started
+
+
+Run application
+
+
+Run with bat file
+
+---
+
+
+> Clone repository
+
+```
+git clone https://github.com/Vaixle/talkme-shop-api.git
+```
+
+> Go to the project directory run server.bat
+```
+server.bat
+```
+---
