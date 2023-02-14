@@ -1,9 +1,35 @@
 # eureka-test-task
 
-Тестовое задание.
+## Conntents:
+
+- [RU](#RU) 
+   - [Основные технологии](#Основные-технологии) 
+   - [Тестовое задание](#Тестовое-задание) 
+   - [Описание](#Описание) 
+   - [Требования](#Требования) 
+   - [Решение](#Решение) 
+      - [Начало работы](#Начало-работы) 
+- [EN](#EN) 
+   - [Main Technologies](#Main-technologies) 
+   - [Test task](#Test-task) 
+   - [Description](#Description) 
+   - [Requirments](#Требования) 
+   - [Solution](#Solution)
+      - [Getting started](#Getting-started) 
+
+
+## RU
+
+### Основные технологии
+
+### Тестовое задание
+
+#### Описание
 
 
 Необходимо написать простое web-приложение с использованием node.js node-addon-api WinAPI для проверки наличия пользователя (например, Администратор) в списке пользователей операционной системы Windows.
+
+#### Требования
 
 Приложение должно работать по следующему сценарию
 
@@ -25,3 +51,59 @@
 8. Ссылку на проект присылайте на job@eurekabpo.ru
 
 9. Срок выполнения задания 7 дней начиная с завтрашнего дня.
+
+#### Решение
+
+#### Начало работы
+
+
+Запуск приложения
+
+
+Запуск с помощью bat файла.
+
+---
+
+
+> Клонировать репозиторий
+
+```
+git clone https://github.com/Vaixle/talkme-shop-api.git
+```
+
+> Перейти в каталог проекта запустить server.bat
+```
+server.bat
+```
+---
+
+## EN
+
+### Test task.
+
+#### Description
+
+You need to write a simple web application using node.js node-addon-api WinAPI to check if a user (for example, Administrator) is on the user list of the Windows operating system.
+
+#### Requirments
+
+The application should work according to the following scenario
+
+1. The user runs the web server from the root of the project:
+   server.bat
+2. a browser opens automatically with an initial web page displaying
+- The input field of the user name
+- "Check" button
+3. The user enters any username and clicks on "check".
+4. If the entered user is present in the list of Windows users, the page with the inscription "User present" is displayed, otherwise "User not present". Under the description, there is a "Back" button, which, when clicked, returns to the start page.
+5. Verifying the presence of entered user names in the Windows user list is prohibited by comparing the current user from which the server process is running and entered user. It is also forbidden to use names of home directories of users in C:\Users directory.
+
+You can get the list of users for checking from Computer Management->Services->Local Users and Groups->Users.
+
+6. At the root of the project create README.MD file with the text of test task in UTF-8 coding
+
+7. The project should be uploaded to github.com (other resources are not considered).
+
+8. Send the link to your project to job@eurekabpo.ru.
+
+9. The deadline for the task is 7 days, starting tomorrow.
