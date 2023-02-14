@@ -1,5 +1,8 @@
 # eureka-test-task
 
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
+[![GitHub](https://img.shields.io/github/license/Vaixle/eureka-test-task)](https://github.com/Vaixle/eureka-test-task/blob/main/LICENSE.md)
+
 ## Conntents:
 
 - [RU](#RU) 
@@ -21,6 +24,9 @@
 ## RU
 
 ### Основные технологии
+
+| **Backend**  |![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)|
+|:------------:|:------------:|
 
 ### Тестовое задание
 
@@ -78,6 +84,11 @@ server.bat
 ---
 
 ## EN
+
+### Main technologies
+
+| **Backend**  |![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)|
+|:------------:|:------------:|
 
 ### Test task.
 
